@@ -10,6 +10,14 @@ header {
     position: relative;
 }
 
+.name{
+    color: var(--tertiary-color)
+}
+
+.name-bold{
+    color: #da823a;
+}
+
 /* ======= CTA ======= */
 .cta{
     margin-top: 2.5rem;

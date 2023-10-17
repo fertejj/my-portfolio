@@ -5,8 +5,7 @@ import {AiOutlineCheckCircle} from 'react-icons/ai'
 const Services = () => {
   return (
     <section id='services'>
-        <h5>What I Offer</h5>
-        <h2>Services</h2>
+        <h2>Servicios</h2>
 
         <div className="container services__container">
             <article className='service'>
@@ -17,39 +16,47 @@ const Services = () => {
                 <ul className='service__list'>
                   <li>
                     <AiOutlineCheckCircle className='service__list-icon'/>
-                    <p>Desarrollo de la pagina</p>
+                    <p>Atencion personalizada.</p>
                   </li>
                   <li>
                     <AiOutlineCheckCircle className='service__list-icon'/>
-                    <p>Atencion personalizada</p>
+                    <p>Asesoramiento en colorimetria.</p>
                   </li>
                                     <li>
                     <AiOutlineCheckCircle className='service__list-icon'/>
-                    <p>Agregado de funcionalidades especificas</p>
+                    <p>Agregado de funcionalidades especificas.</p>
                   </li>
                   <li>
                     <AiOutlineCheckCircle className='service__list-icon'/>
-                    <p>Dominio de tu eleccion (.com, .net, store, etc)</p>
+                    <p>Dominio a tu eleccion (.com, .net, store, etc).</p>
                   </li>
                 </ul>
             </article>
             <article className='service'>
                 <div className='service__head'>
-                    <h3>Limpieza y mantenimiento de PC</h3>
+                    <h3>Servicio Tecnico</h3>
                 </div>
 
                 <ul className='service__list'>
                   <li>
                     <AiOutlineCheckCircle className='service__list-icon'/>
-                    <p>Limpieza fisica del ordenador.</p>
+                    <p>Formateo.</p>
                   </li>
                   <li>
                     <AiOutlineCheckCircle className='service__list-icon'/>
-                    <p>Mantenimiento de software/SO.</p>
+                    <p>Mantenimiento en general.</p>
                   </li>
                   <li>
                     <AiOutlineCheckCircle className='service__list-icon'/>
-                    <p>Instalacion de programas.</p>
+                    <p>Reparaciones en general.</p>
+                  </li>
+                  <li>
+                    <AiOutlineCheckCircle className='service__list-icon'/>
+                    <p>Armado de equipos.</p>
+                  </li>
+                  <li>
+                    <AiOutlineCheckCircle className='service__list-icon'/>
+                    <p>Instalaciones en puestos de trabajo.</p>
                   </li>
                 </ul>
             </article>

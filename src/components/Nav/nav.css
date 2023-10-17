@@ -20,7 +20,7 @@ nav a{
     padding: 0.5rem;
     border-radius: 50%;
     display: flex;
-    color: var(--contrast-color);
+    color: var(--tertiary-color);
     font-size: 1.1rem;
 }
 
@@ -29,6 +29,6 @@ nav a:hover {
 }
 
 nav a.active {
-    background: var(--contrast-color);
+    background: var(--tertiary-color);
     color: var(--bg-color);
 }

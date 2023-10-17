@@ -9,12 +9,10 @@
 }
 
 :root {
-    --primary-color: #ff8800;
-    --primary-color-var: #fbffcd;
-    --secondary-color: #350000;
-    --tertiary-color: #ffd95b;
-    --contrast-color: #fbffcd;
-    --bg-color: #180000;
+    --primary-color: #48947B;
+    --secondary-color: #da823a;
+    --tertiary-color: rgb(223, 223, 223);
+    --bg-color: #2E594F;
     
     --container-width-lg: 75%;
     --container-width-md: 86%;
@@ -34,9 +32,8 @@ html {
 body{
     font-family: 'Kanit', sans-serif;
     background: var(--bg-color);
-    color: var(--contrast-color);
+    color: var(--primary-color);
     line-height: 1.7;
-    background-image: url(./assets/bg-texture.png);
 }
 
 /* === GENERAL STYLES === */
@@ -70,7 +67,7 @@ section > h2 {
 }
 
 .text-light{
-    color: var(--contrast-color);
+    color: var(--tertiary-color);
 }
 
 a {
@@ -79,8 +76,9 @@ a {
 }
 
 a:hover {
-    color: var(--contrast-color)
+    color: var(--tertiary-color)
 }
+
 
 .btn {
     width: max-content;
@@ -94,9 +92,9 @@ a:hover {
 }
 
 .btn:hover {
-    background: var(--contrast-color);
-    color: var(--bg-color); 
-    border-color: transparent;
+    background: var(--bg-color);
+    color: var(--primary-color); 
+    border-color: var(--primary-color);
 }
 
 .btn-primary{

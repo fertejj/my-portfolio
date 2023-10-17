@@ -17,7 +17,11 @@ const About = () => {
         </div>
         <div className="about__content">
           <AboutCards/>
-          <p> Soy Front-End developer, actualmente me encuentro trabajando en el desarrollo y mantenimiento de páginas web tipo landing y e-commerce en un rol part-time. Además, estoy estudiando la carrera de "Analista Programador Universitario" en la Universidad Nacional de Jujuy para seguir mejorando mis habilidades y conocimientos. Soy una persona transparente y positiva, lo que me permite aportar soluciones efectivas en el trabajo en equipo.</p>
+          <p> Soy Programador Full-Stack, actualmente no me encuentro trabajando a tiempo completo como desarrollador debido a que decidi dedicar mas tiempo a los estudios. 
+          </p>
+          <p>           Estoy estudiando la carrera de "Analista Programador" en la Facultad de Ingenieria de la Universidad Publica Argentina de San Salvador de Jujuy. 
+     </p>
+     <p>Desde pequeño fui apasionado por la computadora, aunque, tarde en dar el paso a transformar esto en el centro de mi vida profesional. Hoy luego de mi primer puesto laboral logrado y estudiando una carrera universitaria, me doy cuenta que es mi pasion y que quiero dedicarme a esto para ser mejor dia a dia.</p>
           <a href="#contact" className='btn btn-primary'>Contactame!</a>
         </div>
       </div>
